@@ -1,9 +1,9 @@
 <?php
 
-namespace Vanguard\UserActivity\Database\Seeders;
+namespace AMGPortal\UserActivity\Database\Seeders;
 
-use Vanguard\Permission;
-use Vanguard\Role;
+use AMGPortal\Permission;
+use AMGPortal\Role;
 use Illuminate\Database\Seeder;
 
 class ActivityPermissionsSeeder extends Seeder

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vanguard\UserActivity;
+namespace AMGPortal\UserActivity;
 
 use Illuminate\Contracts\Auth\Factory;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
-use Vanguard\User;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\User;
 use Illuminate\Http\Request;
 
 class Logger

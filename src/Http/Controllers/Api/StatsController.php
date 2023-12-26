@@ -1,15 +1,15 @@
 <?php
 
-namespace Vanguard\UserActivity\Http\Controllers\Api;
+namespace AMGPortal\UserActivity\Http\Controllers\Api;
 
 use Auth;
 use Carbon\Carbon;
-use Vanguard\Http\Controllers\Api\ApiController;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\Http\Controllers\Api\ApiController;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
 
 /**
  * Class ActivityController
- * @package Vanguard\Http\Controllers\Api\Users
+ * @package AMGPortal\Http\Controllers\Api\Users
  */
 class StatsController extends ApiController
 {

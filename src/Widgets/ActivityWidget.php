@@ -1,12 +1,12 @@
 <?php
 
-namespace Vanguard\UserActivity\Widgets;
+namespace AMGPortal\UserActivity\Widgets;
 
 use Auth;
 use Carbon\Carbon;
-use Vanguard\Plugins\Widget;
-use Vanguard\User;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\Plugins\Widget;
+use AMGPortal\User;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
 
 class ActivityWidget extends Widget
 {

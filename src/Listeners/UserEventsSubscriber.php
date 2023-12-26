@@ -1,26 +1,26 @@
 <?php
 
-namespace Vanguard\UserActivity\Listeners;
+namespace AMGPortal\UserActivity\Listeners;
 
 use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Auth\Events\Registered;
 use Lab404\Impersonate\Events\LeaveImpersonation;
 use Lab404\Impersonate\Events\TakeImpersonation;
-use Vanguard\Events\Settings\Updated as SettingsUpdated;
-use Vanguard\Events\User\Banned;
-use Vanguard\Events\User\ChangedAvatar;
-use Vanguard\Events\User\Created;
-use Vanguard\Events\User\Deleted;
-use Vanguard\Events\User\LoggedIn;
-use Vanguard\Events\User\LoggedOut;
-use Vanguard\Events\User\RequestedPasswordResetEmail;
-use Vanguard\Events\User\TwoFactorDisabled;
-use Vanguard\Events\User\TwoFactorDisabledByAdmin;
-use Vanguard\Events\User\TwoFactorEnabled;
-use Vanguard\Events\User\TwoFactorEnabledByAdmin;
-use Vanguard\Events\User\UpdatedByAdmin;
-use Vanguard\Events\User\UpdatedProfileDetails;
-use Vanguard\UserActivity\Logger;
+use AMGPortal\Events\Settings\Updated as SettingsUpdated;
+use AMGPortal\Events\User\Banned;
+use AMGPortal\Events\User\ChangedAvatar;
+use AMGPortal\Events\User\Created;
+use AMGPortal\Events\User\Deleted;
+use AMGPortal\Events\User\LoggedIn;
+use AMGPortal\Events\User\LoggedOut;
+use AMGPortal\Events\User\RequestedPasswordResetEmail;
+use AMGPortal\Events\User\TwoFactorDisabled;
+use AMGPortal\Events\User\TwoFactorDisabledByAdmin;
+use AMGPortal\Events\User\TwoFactorEnabled;
+use AMGPortal\Events\User\TwoFactorEnabledByAdmin;
+use AMGPortal\Events\User\UpdatedByAdmin;
+use AMGPortal\Events\User\UpdatedProfileDetails;
+use AMGPortal\UserActivity\Logger;
 
 class UserEventsSubscriber
 {

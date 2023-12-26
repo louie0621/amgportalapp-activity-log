@@ -1,11 +1,11 @@
 <?php
 
-namespace Vanguard\UserActivity\Listeners;
+namespace AMGPortal\UserActivity\Listeners;
 
-use Vanguard\Events\Permission\Created;
-use Vanguard\Events\Permission\Deleted;
-use Vanguard\Events\Permission\Updated;
-use Vanguard\UserActivity\Logger;
+use AMGPortal\Events\Permission\Created;
+use AMGPortal\Events\Permission\Deleted;
+use AMGPortal\Events\Permission\Updated;
+use AMGPortal\UserActivity\Logger;
 
 class PermissionEventsSubscriber
 {

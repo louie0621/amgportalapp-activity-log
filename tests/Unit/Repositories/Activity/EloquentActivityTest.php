@@ -1,14 +1,14 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Unit\Repositories\Activity;
+namespace AMGPortal\UserActivity\Tests\Unit\Repositories\Activity;
 
 use Illuminate\Testing\Assert;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Vanguard\User;
+use AMGPortal\User;
 use Carbon\Carbon;
-use Vanguard\UserActivity\Activity;
-use Vanguard\UserActivity\Repositories\Activity\EloquentActivity;
+use AMGPortal\UserActivity\Activity;
+use AMGPortal\UserActivity\Repositories\Activity\EloquentActivity;
 
 class EloquentActivityTest extends TestCase
 {

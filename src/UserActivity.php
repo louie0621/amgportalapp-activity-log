@@ -1,17 +1,17 @@
 <?php
 
-namespace Vanguard\UserActivity;
+namespace AMGPortal\UserActivity;
 
 use Event;
 use Route;
-use Vanguard\Plugins\Plugin;
-use Vanguard\Support\Sidebar\Item;
-use Vanguard\UserActivity\Http\View\Composers\ShowUserComposer;
-use Vanguard\UserActivity\Listeners\PermissionEventsSubscriber;
-use Vanguard\UserActivity\Listeners\RoleEventsSubscriber;
-use Vanguard\UserActivity\Listeners\UserEventsSubscriber;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
-use Vanguard\UserActivity\Repositories\Activity\EloquentActivity;
+use AMGPortal\Plugins\Plugin;
+use AMGPortal\Support\Sidebar\Item;
+use AMGPortal\UserActivity\Http\View\Composers\ShowUserComposer;
+use AMGPortal\UserActivity\Listeners\PermissionEventsSubscriber;
+use AMGPortal\UserActivity\Listeners\RoleEventsSubscriber;
+use AMGPortal\UserActivity\Listeners\UserEventsSubscriber;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\UserActivity\Repositories\Activity\EloquentActivity;
 use View;
 
 class UserActivity extends Plugin
@@ -73,7 +73,7 @@ class UserActivity extends Plugin
     protected function mapWebRoutes()
     {
         Route::group([
-            'namespace' => 'Vanguard\UserActivity\Http\Controllers\Web',
+            'namespace' => 'AMGPortal\UserActivity\Http\Controllers\Web',
             'middleware' => 'web',
         ], function () {
             $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
@@ -86,7 +86,7 @@ class UserActivity extends Plugin
     protected function mapApiRoutes()
     {
         Route::group([
-            'namespace' => 'Vanguard\UserActivity\Http\Controllers\Api',
+            'namespace' => 'AMGPortal\UserActivity\Http\Controllers\Api',
             'middleware' => 'api',
             'prefix' => 'api',
         ], function () {

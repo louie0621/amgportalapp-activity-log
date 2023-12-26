@@ -1,9 +1,9 @@
 <?php
 
-namespace Vanguard\UserActivity\Http\View\Composers;
+namespace AMGPortal\UserActivity\Http\View\Composers;
 
 use Illuminate\View\View;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
 
 class ShowUserComposer
 {

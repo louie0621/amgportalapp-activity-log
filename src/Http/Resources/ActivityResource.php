@@ -1,6 +1,6 @@
 <?php
 
-namespace Vanguard\UserActivity\Http\Resources;
+namespace AMGPortal\UserActivity\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

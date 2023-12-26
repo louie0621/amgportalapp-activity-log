@@ -1,9 +1,9 @@
 {
-    "name": "amgportal/activity-log",
-    "description": "User activity log plugin for Vanguard.",
+    "name": "amgportalapp/activity-log",
+    "description": "User activity log plugin for AMGPortal.",
     "keywords": [
         "laravel",
-        "vanguard",
+        "amgportal",
         "activity log",
         "user activity"
     ],
@@ -19,7 +19,7 @@
     "require": {
         "php": "^8.0.2|^8.1",
         "illuminate/http": "^9.0",
-        "vanguardapp/plugins": "^4.0",
+        "amgportalapp/plugins": "^4.0",
         "spatie/laravel-query-builder": "^5.0"
     },
     "require-dev": {
@@ -27,14 +27,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Vanguard\\UserActivity\\": "src/",
-            "Vanguard\\UserActivity\\Database\\Factories\\": "database/factories/",
-            "Vanguard\\UserActivity\\Database\\Seeders\\": "database/seeders/"
+            "AMGPortal\\UserActivity\\": "src/",
+            "AMGPortal\\UserActivity\\Database\\Factories\\": "database/factories/",
+            "AMGPortal\\UserActivity\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vanguard\\UserActivity\\Tests\\": "tests/"
+            "AMGPortal\\UserActivity\\Tests\\": "tests/"
         }
     },
     "config": {

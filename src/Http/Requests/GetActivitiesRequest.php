@@ -1,8 +1,8 @@
 <?php
 
-namespace Vanguard\UserActivity\Http\Requests;
+namespace AMGPortal\UserActivity\Http\Requests;
 
-use Vanguard\Http\Requests\Request;
+use AMGPortal\Http\Requests\Request;
 
 class GetActivitiesRequest extends Request
 {

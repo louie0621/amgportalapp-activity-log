@@ -1,17 +1,17 @@
 <?php
 
-namespace Vanguard\UserActivity\Http\Controllers\Api;
+namespace AMGPortal\UserActivity\Http\Controllers\Api;
 
 use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
-use Vanguard\UserActivity\Http\Resources\ActivityResource;
-use Vanguard\UserActivity\Activity;
-use Vanguard\UserActivity\Http\Requests\GetActivitiesRequest;
-use Vanguard\Http\Controllers\Api\ApiController;
+use AMGPortal\UserActivity\Http\Resources\ActivityResource;
+use AMGPortal\UserActivity\Activity;
+use AMGPortal\UserActivity\Http\Requests\GetActivitiesRequest;
+use AMGPortal\Http\Controllers\Api\ApiController;
 
 /**
  * Class ActivityController
- * @package Vanguard\Http\Controllers\Api
+ * @package AMGPortal\Http\Controllers\Api
  */
 class ActivityController extends ApiController
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Vanguard\UserActivity\Repositories\Activity;
+namespace AMGPortal\UserActivity\Repositories\Activity;
 
-use Vanguard\UserActivity\Activity;
+use AMGPortal\UserActivity\Activity;
 use Carbon\Carbon;
 use DB;
 

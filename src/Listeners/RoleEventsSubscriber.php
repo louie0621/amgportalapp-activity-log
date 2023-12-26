@@ -1,12 +1,12 @@
 <?php
 
-namespace Vanguard\UserActivity\Listeners;
+namespace AMGPortal\UserActivity\Listeners;
 
-use Vanguard\Events\Role\Created;
-use Vanguard\Events\Role\PermissionsUpdated;
-use Vanguard\Events\Role\Updated;
-use Vanguard\Events\Role\Deleted;
-use Vanguard\UserActivity\Logger;
+use AMGPortal\Events\Role\Created;
+use AMGPortal\Events\Role\PermissionsUpdated;
+use AMGPortal\Events\Role\Updated;
+use AMGPortal\Events\Role\Deleted;
+use AMGPortal\UserActivity\Logger;
 
 class RoleEventsSubscriber
 {

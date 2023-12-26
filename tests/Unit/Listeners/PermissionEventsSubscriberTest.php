@@ -1,12 +1,12 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Unit\Listeners;
+namespace AMGPortal\UserActivity\Tests\Unit\Listeners;
 
 use Mockery as m;
-use Vanguard\Events\Permission\Created;
-use Vanguard\Events\Permission\Deleted;
-use Vanguard\Events\Permission\Updated;
-use \Vanguard\UserActivity\Tests\Unit\Listeners\ListenerTestCase;
+use AMGPortal\Events\Permission\Created;
+use AMGPortal\Events\Permission\Deleted;
+use AMGPortal\Events\Permission\Updated;
+use \AMGPortal\UserActivity\Tests\Unit\Listeners\ListenerTestCase;
 
 class PermissionEventsSubscriberTest extends ListenerTestCase
 {
@@ -15,7 +15,7 @@ class PermissionEventsSubscriberTest extends ListenerTestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->perm = factory(\Vanguard\Permission::class)->create();
+        $this->perm = factory(\AMGPortal\Permission::class)->create();
     }
 
     /** @test */

@@ -1,11 +1,11 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Unit\Listeners;
+namespace AMGPortal\UserActivity\Tests\Unit\Listeners;
 
-use Vanguard\Events\Role\Created;
-use Vanguard\Events\Role\Deleted;
-use Vanguard\Events\Role\PermissionsUpdated;
-use Vanguard\Events\Role\Updated;
+use AMGPortal\Events\Role\Created;
+use AMGPortal\Events\Role\Deleted;
+use AMGPortal\Events\Role\PermissionsUpdated;
+use AMGPortal\Events\Role\Updated;
 
 class RoleEventsSubscriberTest extends ListenerTestCase
 {
@@ -14,7 +14,7 @@ class RoleEventsSubscriberTest extends ListenerTestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->role = factory(\Vanguard\Role::class)->create();
+        $this->role = factory(\AMGPortal\Role::class)->create();
     }
 
     /** @test */

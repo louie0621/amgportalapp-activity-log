@@ -1,12 +1,12 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Feature\Api;
+namespace AMGPortal\UserActivity\Tests\Feature\Api;
 
 use Carbon\Carbon;
 use Tests\Feature\ApiTestCase;
-use Vanguard\User;
-use Vanguard\UserActivity\Activity;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\User;
+use AMGPortal\UserActivity\Activity;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
 
 class StatsTest extends ApiTestCase
 {

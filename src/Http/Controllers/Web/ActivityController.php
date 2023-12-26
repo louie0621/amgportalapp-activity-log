@@ -1,16 +1,16 @@
 <?php
 
-namespace Vanguard\UserActivity\Http\Controllers\Web;
+namespace AMGPortal\UserActivity\Http\Controllers\Web;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
-use Vanguard\UserActivity\Repositories\Activity\ActivityRepository;
-use Vanguard\Http\Controllers\Controller;
+use AMGPortal\UserActivity\Repositories\Activity\ActivityRepository;
+use AMGPortal\Http\Controllers\Controller;
 
 /**
  * Class ActivityController
- * @package Vanguard\Http\Controllers
+ * @package AMGPortal\Http\Controllers
  */
 class ActivityController extends Controller
 {

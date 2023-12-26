@@ -1,10 +1,10 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Unit\Listeners;
+namespace AMGPortal\UserActivity\Tests\Unit\Listeners;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Vanguard\User;
+use AMGPortal\User;
 
 class ListenerTestCase extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Feature\Api;
+namespace AMGPortal\UserActivity\Tests\Feature\Api;
 
 use Facades\Tests\Setup\UserFactory;
 use Tests\Feature\ApiTestCase;
-use Vanguard\UserActivity\Activity;
-use Vanguard\UserActivity\Http\Resources\ActivityResource;
-use Vanguard\UserActivity\Transformers\ActivityTransformer;
-use Vanguard\User;
+use AMGPortal\UserActivity\Activity;
+use AMGPortal\UserActivity\Http\Resources\ActivityResource;
+use AMGPortal\UserActivity\Transformers\ActivityTransformer;
+use AMGPortal\User;
 
 class ActivityTest extends ApiTestCase
 {

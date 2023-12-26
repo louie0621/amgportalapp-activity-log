@@ -1,12 +1,12 @@
 <?php
 
-namespace Vanguard\UserActivity\Tests\Feature\Web;
+namespace AMGPortal\UserActivity\Tests\Feature\Web;
 
 use Carbon\Carbon;
 use Facades\Tests\Setup\UserFactory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
-use Vanguard\UserActivity\Logger;
+use AMGPortal\UserActivity\Logger;
 
 class ActivityTest extends TestCase
 {

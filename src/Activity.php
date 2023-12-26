@@ -1,11 +1,11 @@
 <?php
 
-namespace Vanguard\UserActivity;
+namespace AMGPortal\UserActivity;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Vanguard\User;
+use AMGPortal\User;
 use Illuminate\Database\Eloquent\Model;
-use Vanguard\UserActivity\Database\Factories\ActivityFactory;
+use AMGPortal\UserActivity\Database\Factories\ActivityFactory;
 
 class Activity extends Model
 {
