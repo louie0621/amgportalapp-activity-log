@@ -8,14 +8,6 @@
         "user activity"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Milos Stojanovic",
-            "email": "stojanovic.loshmi@gmail.com",
-            "homepage": "https://mstojanovic.net",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^8.0.2|^8.1",
         "illuminate/http": "^9.0",
