@@ -21,11 +21,11 @@ class UserActivity extends Plugin
      */
     public function sidebar()
     {
-        return Item::create(__('Activity Log'))
-            ->route('activity.index')
-            ->icon('fas fa-server')
-            ->active("activity*")
-            ->permissions('users.activity');
+        // return Item::create(__('Activity Log'))
+        //     ->route('activity.index')
+        //     ->icon('fas fa-server')
+        //     ->active("activity*")
+        //     ->permissions('users.activity');
     }
 
     /**
